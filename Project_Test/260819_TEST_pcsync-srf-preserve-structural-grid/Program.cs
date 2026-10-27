@@ -118,7 +118,7 @@ internal static class Program
             Cells = keySet.Cells,
             Topology = keySet.Topology
         };
-        const string pid = "PID_BKT_N1_01_11";
+        const string pid = "PID-BKT-N1-01-11";
         const string material = "MPL-001";
         string layer = $"{PanelCladdingSpawnPlanningService.MaterialSurfaceRootLayer}::" +
             $"{PanelCladdingSpawnPlanningService.ResolveMaterialFamilyLayer(material)}::{material}";
