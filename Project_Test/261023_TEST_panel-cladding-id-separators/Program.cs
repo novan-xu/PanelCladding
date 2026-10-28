@@ -41,7 +41,7 @@ internal static class Program
         (string Cid, string Name)[] names =
         {
             ("CID-BKT-N2-05-05_C", "N2-05-05_C"), ("CID-BKT-N2-05-05_C_0A", "N2-05-05_C_0A"),
-            ("CID-BKT-E1-04-01_FRM-0", "E1-04-01_FRM-0"), ("CID-XYZ-N1-01-01", "XYZ-N1-01-01"), ("CUSTOM", "CUSTOM")
+            ("CID-BKT-E1-04-01_FRM-0", "E1-04-01_FRM-0"), ("CID-XYZ-N1-01-01", "N1-01-01"), ("CUSTOM", "CUSTOM")
         };
         foreach ((string cid, string name) in names)
         {
